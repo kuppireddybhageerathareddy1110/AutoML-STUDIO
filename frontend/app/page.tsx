@@ -8,7 +8,7 @@ import {
   PolarAngleAxis, PolarRadiusAxis, Cell, Scatter, ScatterChart, ZAxis,
 } from "recharts";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://automl-studio-022z.onrender.com";
 
 /* ─── Toast ─────────────────────────────────────────────────────────── */
 type Toast = { id: number; msg: string; type: "success" | "error" | "info" };
