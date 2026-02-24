@@ -11,3 +11,4 @@ shap
 openpyxl
 python-multipart
 joblib
+matplotlib
