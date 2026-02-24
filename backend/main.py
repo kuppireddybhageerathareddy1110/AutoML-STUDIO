@@ -21,7 +21,10 @@ app = FastAPI(title="AutoML API")
 # ----------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+    "http://localhost:3000",
+    "https://automl-studio.netlify.app",
+],
     allow_methods=["*"],
     allow_headers=["*"],
 )
